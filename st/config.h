@@ -96,24 +96,30 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#000000",	/* OK */
-	"#2A7221",	/* OK */
-	"#e77728",	/* OK */
-	"#9A4C95",	/* OK */
-	"#5493BF",	/* OK */
-	"#9A4C95",	/* OK */
-	"#43b545",	/* OK */
-	"#EBEBEB",	/* OK */
+	"#000000",	/* BLACK -  St > window background */
+	"#F58F29",	/* ORANGE - Vim > main programming color + color of values; */ 
+			/*          Ranger > 'empty directory' warning + Archived files */
+	"#C20114",	/* RED -    Ranger > permissions info; */
+			/*          Htop > 2nd color */
+	"#641ADB",	/* PURPLE - Ranger > video, audio and picture colors */
+	"#2A7221",	/* GREEN -  Vim > comment color (because 'Zombie code') */
+	"#FFD400",	/* YELLOW - Vim > variable values; */
+       			/*	    St > CLI app flags */
+	"#C20114",	/* RED -    Vim > variables; */
+			/*          Htop > main color */
+	"#EBEBEB",	/* GREY -   St > package description color */
 
 	/* 8 bright colors */
-	"#5493BF",	/* OK */
-	"#5493BF", 	/* OK */
-	"#43b545", 	/* OK */
-	"#43b545",	/* OK */
-	"#43b545",	/* OK */
-	"#9A4C95",	/* OK */
-	"#5493BF",	/* OK */
-	"#FFFFFF",	/* OK */
+	"#00A6FB",	/* BLUE -   Htop > process owner + main info color */
+	"#97DB4F", 	/* DRECAVA- Alsamixer > values of volume */
+	"#C20114", 	/* RED -    St > package version color; */
+			/*          Ranger > username@hostname color */
+	"#D87CAC",	/* PINK -   Alsamixer > number color */
+			/* 	    Ranger > Highlighted item (for deletion, copying etc.) */
+	"#43b545",	/* GREEN -  Ranger > main color */
+	"#641ADB",	/* PURPLE - Ranger > programming files > main preview color of code (changes to orange when file is opened) */
+	"#00A6FB",	/* BLUE -   St > info that package is installed */
+	"#FFFFFF",	/* WHITE -  St > package name */
 
 	[255] = 0,
 

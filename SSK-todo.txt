@@ -1,0 +1,7 @@
+1. Download all Suckless Software packages...
+2. Download required patches
+3. Copy color values of My_St
+4. Copy color values and icons of My_Dwm
+5. Copy commands of My_Slstatus
+6. Upload to new Github repo. 
+Clean state...

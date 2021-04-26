@@ -13,7 +13,7 @@ static const int topbar             = 0;        /* 0 means bottom bar */
 static const char *fonts[]          = {"Iosevka:size=18"};
 static const char dmenufont[]       = "Iosevka:size=18";
 static const char col_gray1[]       = "#000000"; /* Black - background color */
-static const char col_gray2[]       = "#343A40"; /* Grey - idk */
+static const char col_gray2[]       = "#EBEBEB"; /* Grey - idk */
 static const char col_gray3[]       = "#FFD400"; /* Yellow - main color */
 static const char col_gray4[]       = "#FFFFFF"; /* White - highlighted app font color */
 static const char col_cyan[]        = "#190E4F"; /* Purple - 2nd color */

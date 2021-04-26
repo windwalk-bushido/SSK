@@ -111,11 +111,12 @@ static const char *colorname[] = {
 
 	/* 8 bright colors */
 	"#00A6FB",	/* BLUE -   Htop > process owner + main info color */
-	"#97DB4F", 	/* DRECAVA- Alsamixer > values of volume */
+	"#97DB4F", 	/* GREEN -  Alsamixer > values of volume */
+			/* Ranger > preview color of $ sign */
 	"#C20114", 	/* RED -    St > package version color; */
 			/*          Ranger > username@hostname color */
 	"#D87CAC",	/* PINK -   Alsamixer > number color */
-			/* 	    Ranger > Highlighted item (for deletion, copying etc.) */
+			/* 	    Ranger > Highlighted item (for deletion, copying etc.) + preview background color of $ sign */
 	"#43b545",	/* GREEN -  Ranger > main color */
 	"#641ADB",	/* PURPLE - Ranger > programming files > main preview color of code (changes to orange when file is opened) */
 	"#00A6FB",	/* BLUE -   St > info that package is installed */
